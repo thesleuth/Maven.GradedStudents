@@ -388,7 +388,7 @@
 
 			// When
 			Student[] preEnrollment = classroom.getStudents();
-			classroom.addStudent(s1);
+			classroom.addStudent(student);
 			Student[] postEnrollment = classroom.getStudents();
 			
 			// Then
