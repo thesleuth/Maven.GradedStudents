@@ -204,7 +204,7 @@
 			// : Given
 			String firstName = "Leon";
 			String lastName = "Hunter";
-			Double[] examScores = { 100.0, 150.0, 250.0, 0 };
+			Double[] examScores = { 100.0, 150.0, 250.0, 0.0 };
 			Student student = new Student(firstName, lastName, examScores);
 			
 			// When
@@ -216,7 +216,7 @@
 		* Sample Output
 		
 			```
-			125
+			125.0
 			```
 			
 			
