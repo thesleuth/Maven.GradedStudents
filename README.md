@@ -387,9 +387,9 @@
 			Student student = new Student("Leon", "Hunter", examScores);			
 
 			// When
-			String[] preEnrollment = classroom.getStudents();
+			Student[] preEnrollment = classroom.getStudents();
 			classroom.add(s1);
-			String[] postEnrollment = classroom.getStudents();
+			Student[] postEnrollment = classroom.getStudents();
 			
 			// Then
 			String preEnrollmentAsString = Arrays.toString(preEnrollment);
