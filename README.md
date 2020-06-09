@@ -208,7 +208,7 @@
 			Student student = new Student(firstName, lastName, examScores);
 			
 			// When
-			double output = student.getAverageExamScore();
+			Double output = student.getAverageExamScore();
 			
 			// Then
 			System.out.println(output);
@@ -238,7 +238,7 @@
 			Student student = new Student(firstName, lastName, examScores);
 			
 			// When
-			double output = student.toString();
+			String output = student.toString();
 			
 			// Then
 			System.out.println(output);
